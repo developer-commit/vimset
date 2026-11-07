@@ -1,0 +1,43 @@
+" Copy to ~/.vimrc.local, then uncomment only the options you want.
+" This file is not loaded automatically; your .vimrc.local is preserved.
+
+" Mouse selection in Vim (leave disabled for easy terminal-native selection).
+" set mouse=a
+
+" Relative line numbers for motions such as 8j and 5k.
+" set relativenumber
+
+" Enable 24-bit colors when your terminal supports them but does not advertise it.
+" if has('termguicolors')
+"   set termguicolors
+" endif
+
+" For a limited SSH terminal, explicitly use the 256-color theme.
+" if has('termguicolors')
+"   set notermguicolors
+" endif
+
+" A slightly brighter Everforest light variant.
+" let g:everforest_background = 'medium'
+" silent! colorscheme everforest
+
+" Raise the large-file syntax cutoff to 8 MiB; 0 disables the cutoff.
+" let g:lightvim_large_file_bytes = 8 * 1024 * 1024
+
+" System clipboard integration, when Vim was built with +clipboard.
+" if has('clipboard')
+"   set clipboard=unnamedplus
+" endif
+
+" C/C++ defaults are a preference, not a language rule. Use .editorconfig
+" for per-project styles; it is read by vim-sleuth.
+
+" Optional compiler integration, only activated when you run :make yourself.
+" augroup MyCompilers
+"   autocmd!
+"   autocmd FileType rust compiler cargo
+"   autocmd FileType go compiler go
+"   autocmd FileType cs compiler dotnet
+" augroup END
+" Then :make check for Rust, :make ./... for Go, or :make for C#.
+" Run Vim from the project root so these commands use the intended directory.

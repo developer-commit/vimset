@@ -1,0 +1,7 @@
+# name	upstream URL	branch
+vim-commentary	https://github.com/tpope/vim-commentary.git	master
+vim-surround	https://github.com/tpope/vim-surround.git	master
+vim-repeat	https://github.com/tpope/vim-repeat.git	master
+vim-fugitive	https://github.com/tpope/vim-fugitive.git	master
+vim-sleuth	https://github.com/tpope/vim-sleuth.git	master
+everforest	https://github.com/sainnhe/everforest.git	master
